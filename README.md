@@ -9,7 +9,7 @@ Tämän projektin tarkoitus on asentaa uudelle Linux-koneelle hyväksi havaitsem
 Alustavat lista asennettavista ohjelmista.
 
 - Micro (tekstieditori)
-- Vlc (videosoitin
+- Vlc (videosoitin)
 - Gimp (kuvankäsittelyohjelma)
 - Apache (verkkopalvelin)
 
