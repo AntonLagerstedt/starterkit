@@ -12,6 +12,7 @@ Alustavat lista asennettavista ohjelmista.
 - Vlc (videosoitin)
 - Gimp (kuvankäsittelyohjelma)
 - Apache (verkkopalvelin)
+- ocular
 
 Asennetaan myös "timeline"-komento, joka näyttää aikajanan muutoksista kansiossa, jossa komento ajetaan.
 Esimerkki timelina komennosta:
