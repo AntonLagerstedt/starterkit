@@ -28,6 +28,9 @@ apache2.service:
   file.managed:
     - source: salt://starterkit/index.html
 
+/home/anton/.config/micro:
+  file.directory
+
 /home/anton/.config/micro/settings.json:
   file.managed:
     - source: salt://starterkit/settings.json
