@@ -34,3 +34,7 @@ apache2.service:
 /home/anton/.config/micro/settings.json:
   file.managed:
     - source: salt://starterkit/settings.json
+
+/home/anton/.bashrc:
+  file.managed:
+    - source salt://starterkit/.bashrc
