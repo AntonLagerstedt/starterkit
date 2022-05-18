@@ -37,4 +37,4 @@ apache2.service:
 
 /home/anton/.bashrc:
   file.managed:
-    - source salt://starterkit/.bashrc
+    - source: salt://starterkit/.bashrc
