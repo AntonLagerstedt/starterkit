@@ -1,7 +1,7 @@
 # starterkit
 
 - Tekijä: Anton Lagerstedt
-- Versio: alpha
+- Versio: beta 0.1
 - Lisenssi: GNU GENERAL PUBLIC LICENSE Version 2
 
 Tämän projektin tarkoitus on asentaa uudelle Linux-koneelle hyväksi havaitsemani ohjelmat ja niiden asetukset, siltä osin kuin olen tehnyt niihin muutoksia. Lisäksi asennetaan muutama tekemäni komento kaikille käyttäjille.
@@ -32,7 +32,13 @@ luo kansio /srv/salt
 
 	cd /srv ; sudo mkdir salt
 
-kopioi kansio starterkit salt kansioon ja aja salt-tila
+kopioi kansio starterkit salt kansioon.
+Muokkaa init.sls tiedostoa
+
+	sudoedit init.sls
+
+kirjoita riveillä 31, 34 ja 38 nimen anton tilalle oma käyttäjänimesi.
+Aja salt tila.
 
 	sudo salt-call --local state.apply starterkit
 
